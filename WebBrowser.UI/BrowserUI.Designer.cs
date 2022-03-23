@@ -51,6 +51,8 @@
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thisWebBrowserIsCreatedByMattKoenigaStudentAtAuburnUniversityStudentIDMdk0027ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -78,7 +80,7 @@
             this.printPageToolStripMenuItem,
             this.exitWebBrowserToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(80, 41);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(80, 43);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // newTabToolStripMenuItem
@@ -110,6 +112,7 @@
             this.exitWebBrowserToolStripMenuItem.Name = "exitWebBrowserToolStripMenuItem";
             this.exitWebBrowserToolStripMenuItem.Size = new System.Drawing.Size(403, 48);
             this.exitWebBrowserToolStripMenuItem.Text = "Exit Web Browser";
+            this.exitWebBrowserToolStripMenuItem.Click += new System.EventHandler(this.exitWebBrowserToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
             // 
@@ -134,6 +137,8 @@
             // 
             // helpToolStripMenuItem
             // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(95, 41);
             this.helpToolStripMenuItem.Text = "Help";
@@ -242,6 +247,22 @@
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.thisWebBrowserIsCreatedByMattKoenigaStudentAtAuburnUniversityStudentIDMdk0027ToolStripMenuItem});
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(403, 48);
+            this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // thisWebBrowserIsCreatedByMattKoenigaStudentAtAuburnUniversityStudentIDMdk0027ToolStripMenuItem
+            // 
+            this.thisWebBrowserIsCreatedByMattKoenigaStudentAtAuburnUniversityStudentIDMdk0027ToolStripMenuItem.Name = "thisWebBrowserIsCreatedByMattKoenigaStudentAtAuburnUniversityStudentIDMdk0027Tool" +
+    "StripMenuItem";
+            this.thisWebBrowserIsCreatedByMattKoenigaStudentAtAuburnUniversityStudentIDMdk0027ToolStripMenuItem.Size = new System.Drawing.Size(1332, 48);
+            this.thisWebBrowserIsCreatedByMattKoenigaStudentAtAuburnUniversityStudentIDMdk0027ToolStripMenuItem.Text = "This web browser is created by Matt Koenig (a student at Auburn University). Stud" +
+    "ent ID mdk0027. ";
+            // 
             // BrowserUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
@@ -288,5 +309,7 @@
         private ToolStripButton toolStripButton6;
         private TabControl tabControl1;
         private TabPage tabPage1;
+        private ToolStripMenuItem aboutToolStripMenuItem;
+        private ToolStripMenuItem thisWebBrowserIsCreatedByMattKoenigaStudentAtAuburnUniversityStudentIDMdk0027ToolStripMenuItem;
     }
 }
