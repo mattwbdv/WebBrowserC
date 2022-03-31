@@ -52,10 +52,19 @@
     <Compile Include="BrowserUI.Designer.cs">
       <DependentUpon>BrowserUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewTab.Designer.cs">
+      <DependentUpon>NewTab.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="BrowserUI.resx">
       <DependentUpon>BrowserUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTab.resx">
+      <DependentUpon>NewTab.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
