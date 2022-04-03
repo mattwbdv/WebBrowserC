@@ -41,11 +41,13 @@ namespace WebBrowser.UI.Net
         // the ENTER key is pressed while the ToolStripTextBox has focus.
         private void toolStripTextBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Return)
             {
                 Navigate(toolStripTextBox1.Text);
             }
+
         }
+
 
         // Updates the URL in TextBoxAddress upon navigation.
         private void webBrowser1_Navigated(object sender,
@@ -77,6 +79,11 @@ namespace WebBrowser.UI.Net
         {
             webBrowser1.GoForward();
             toolStripTextBox1.Text = webBrowser1.Url.ToString();
+
+        }
+
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }

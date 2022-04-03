@@ -18,6 +18,8 @@ namespace WebBrowser.UI.Net
             NewTab newTab = new NewTab();
             tabPage1.Controls.Add(newTab);
 
+
+
         }
 
         private void webBrowser2_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
