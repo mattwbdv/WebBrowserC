@@ -59,7 +59,8 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1683, 47);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1443, 48);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -72,39 +73,39 @@
             this.printPageToolStripMenuItem,
             this.exitWebBrowserToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(80, 43);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(71, 38);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // newTabToolStripMenuItem
             // 
             this.newTabToolStripMenuItem.Name = "newTabToolStripMenuItem";
-            this.newTabToolStripMenuItem.Size = new System.Drawing.Size(403, 48);
+            this.newTabToolStripMenuItem.Size = new System.Drawing.Size(357, 44);
             this.newTabToolStripMenuItem.Text = "New Tab";
             this.newTabToolStripMenuItem.Click += new System.EventHandler(this.newTabToolStripMenuItem_Click);
             // 
             // closeCurrentTabToolStripMenuItem
             // 
             this.closeCurrentTabToolStripMenuItem.Name = "closeCurrentTabToolStripMenuItem";
-            this.closeCurrentTabToolStripMenuItem.Size = new System.Drawing.Size(403, 48);
+            this.closeCurrentTabToolStripMenuItem.Size = new System.Drawing.Size(357, 44);
             this.closeCurrentTabToolStripMenuItem.Text = "Close Current Tab";
             this.closeCurrentTabToolStripMenuItem.Click += new System.EventHandler(this.closeCurrentTabToolStripMenuItem_Click);
             // 
             // savePageAsHTMLToolStripMenuItem
             // 
             this.savePageAsHTMLToolStripMenuItem.Name = "savePageAsHTMLToolStripMenuItem";
-            this.savePageAsHTMLToolStripMenuItem.Size = new System.Drawing.Size(403, 48);
+            this.savePageAsHTMLToolStripMenuItem.Size = new System.Drawing.Size(357, 44);
             this.savePageAsHTMLToolStripMenuItem.Text = "Save Page As HTML";
             // 
             // printPageToolStripMenuItem
             // 
             this.printPageToolStripMenuItem.Name = "printPageToolStripMenuItem";
-            this.printPageToolStripMenuItem.Size = new System.Drawing.Size(403, 48);
+            this.printPageToolStripMenuItem.Size = new System.Drawing.Size(357, 44);
             this.printPageToolStripMenuItem.Text = "Print Page";
             // 
             // exitWebBrowserToolStripMenuItem
             // 
             this.exitWebBrowserToolStripMenuItem.Name = "exitWebBrowserToolStripMenuItem";
-            this.exitWebBrowserToolStripMenuItem.Size = new System.Drawing.Size(403, 48);
+            this.exitWebBrowserToolStripMenuItem.Size = new System.Drawing.Size(357, 44);
             this.exitWebBrowserToolStripMenuItem.Text = "Exit Web Browser";
             this.exitWebBrowserToolStripMenuItem.Click += new System.EventHandler(this.exitWebBrowserToolStripMenuItem_Click);
             // 
@@ -114,27 +115,29 @@
             this.manageHistoryToolStripMenuItem,
             this.manageBookmarksToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(100, 43);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(89, 44);
             this.toolsToolStripMenuItem.Text = "Tools";
             // 
             // manageHistoryToolStripMenuItem
             // 
             this.manageHistoryToolStripMenuItem.Name = "manageHistoryToolStripMenuItem";
-            this.manageHistoryToolStripMenuItem.Size = new System.Drawing.Size(401, 48);
+            this.manageHistoryToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.manageHistoryToolStripMenuItem.Text = "Manage History";
+            this.manageHistoryToolStripMenuItem.Click += new System.EventHandler(this.manageHistoryToolStripMenuItem_Click);
             // 
             // manageBookmarksToolStripMenuItem
             // 
             this.manageBookmarksToolStripMenuItem.Name = "manageBookmarksToolStripMenuItem";
-            this.manageBookmarksToolStripMenuItem.Size = new System.Drawing.Size(401, 48);
+            this.manageBookmarksToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.manageBookmarksToolStripMenuItem.Text = "Manage Bookmarks";
+            this.manageBookmarksToolStripMenuItem.Click += new System.EventHandler(this.manageBookmarksToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(95, 43);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(84, 38);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
@@ -142,49 +145,49 @@
             this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.thisWebBrowserIsCreatedByMattKoenigAStudentAtAuburnUniversityStudentIDMDK0027ToolStripMenuItem});
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(240, 48);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // thisWebBrowserIsCreatedByMattKoenigAStudentAtAuburnUniversityStudentIDMDK0027ToolStripMenuItem
             // 
             this.thisWebBrowserIsCreatedByMattKoenigAStudentAtAuburnUniversityStudentIDMDK0027ToolStripMenuItem.Name = "thisWebBrowserIsCreatedByMattKoenigAStudentAtAuburnUniversityStudentIDMDK0027Tool" +
     "StripMenuItem";
-            this.thisWebBrowserIsCreatedByMattKoenigAStudentAtAuburnUniversityStudentIDMDK0027ToolStripMenuItem.Size = new System.Drawing.Size(1316, 48);
+            this.thisWebBrowserIsCreatedByMattKoenigAStudentAtAuburnUniversityStudentIDMDK0027ToolStripMenuItem.Size = new System.Drawing.Size(1186, 44);
             this.thisWebBrowserIsCreatedByMattKoenigAStudentAtAuburnUniversityStudentIDMDK0027ToolStripMenuItem.Text = "This web browser is created by Matt Koenig, a student at Auburn University. Stude" +
     "nt ID MDK0027";
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(0, 48);
+            this.tabControl1.Location = new System.Drawing.Point(0, 41);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1683, 542);
+            this.tabControl1.Size = new System.Drawing.Size(1443, 467);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.newTab1);
-            this.tabPage1.Location = new System.Drawing.Point(10, 47);
+            this.tabPage1.Location = new System.Drawing.Point(8, 39);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1663, 485);
+            this.tabPage1.Size = new System.Drawing.Size(1427, 420);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Welcome";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // newTab1
             // 
-            this.newTab1.Location = new System.Drawing.Point(-10, 0);
+            this.newTab1.Location = new System.Drawing.Point(-9, 0);
             this.newTab1.Name = "newTab1";
-            this.newTab1.Size = new System.Drawing.Size(1683, 482);
+            this.newTab1.Size = new System.Drawing.Size(1443, 416);
             this.newTab1.TabIndex = 0;
             // 
             // BrowserUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1683, 611);
+            this.ClientSize = new System.Drawing.Size(1443, 527);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;

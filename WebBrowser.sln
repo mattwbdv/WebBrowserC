@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBrowser.Logic", "WebBrowser.Logic\WebBrowser.Logic.csproj", "{BA020885-DDE2-4988-8FD4-0BCC15F81D32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBrowser.UI.Net", "WebBrowser.UI.Net\WebBrowser.UI.Net.csproj", "{0E6E96D0-7CE7-4842-B37F-738264F32DB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebBrowser.Data", "WebBrowser.Data\WebBrowser.Data.csproj", "{72A50413-2828-4F76-92A0-8560E5160A50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBrowser.Logic.Net", "WebBrowser.Logic.Net\WebBrowser.Logic.Net.csproj", "{84ED2F21-DC8A-4C7F-A211-DB4FE5EBB1DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBrowser.UI", "WebBrowser.UI.Net\WebBrowser.UI.csproj", "{0E6E96D0-7CE7-4842-B37F-738264F32DB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBrowser.Data.Net", "WebBrowser.Data.Net\WebBrowser.Data.Net.csproj", "{5D7A7B6F-95F9-43B8-9630-0F5DDAFF0B19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BA020885-DDE2-4988-8FD4-0BCC15F81D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BA020885-DDE2-4988-8FD4-0BCC15F81D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BA020885-DDE2-4988-8FD4-0BCC15F81D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BA020885-DDE2-4988-8FD4-0BCC15F81D32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{72A50413-2828-4F76-92A0-8560E5160A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72A50413-2828-4F76-92A0-8560E5160A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72A50413-2828-4F76-92A0-8560E5160A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72A50413-2828-4F76-92A0-8560E5160A50}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0E6E96D0-7CE7-4842-B37F-738264F32DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E6E96D0-7CE7-4842-B37F-738264F32DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E6E96D0-7CE7-4842-B37F-738264F32DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E6E96D0-7CE7-4842-B37F-738264F32DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84ED2F21-DC8A-4C7F-A211-DB4FE5EBB1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84ED2F21-DC8A-4C7F-A211-DB4FE5EBB1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84ED2F21-DC8A-4C7F-A211-DB4FE5EBB1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84ED2F21-DC8A-4C7F-A211-DB4FE5EBB1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7A7B6F-95F9-43B8-9630-0F5DDAFF0B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7A7B6F-95F9-43B8-9630-0F5DDAFF0B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7A7B6F-95F9-43B8-9630-0F5DDAFF0B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7A7B6F-95F9-43B8-9630-0F5DDAFF0B19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
