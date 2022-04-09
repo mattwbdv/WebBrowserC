@@ -52,18 +52,7 @@ namespace WebBrowser.UI.Net
 
 
         // Updates the URL in TextBoxAddress upon navigation.
-        private void webBrowser1_Navigated(object sender,
-            WebBrowserNavigatedEventArgs e)
-        {
-            toolStripTextBox1.Text = webBrowser1.Url.ToString();
-            var item = new HistoryItem();
-            item.Title = webBrowser1.DocumentTitle.ToString();
-            item.Date = DateTime.Now;
-            item.URL = webBrowser1.Url.ToString();
 
-            HistoryManager.AddItem(item);
-
-        }
 
         private void goButton_Click(object sender, EventArgs e)
         {
@@ -103,6 +92,18 @@ namespace WebBrowser.UI.Net
             item.URL = webBrowser1.Url.ToString();
 
             BookmarkManager.AddItem(item);
+        }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            toolStripTextBox1.Text = webBrowser1.Url.ToString();
+            var item = new HistoryItem();
+            item.Title = webBrowser1.DocumentTitle.ToString();
+            item.Date = DateTime.Now;
+            item.URL = webBrowser1.Url.ToString();
+
+            HistoryManager.AddItem(item);
+
         }
     }
 }
