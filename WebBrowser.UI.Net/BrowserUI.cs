@@ -70,5 +70,15 @@ namespace WebBrowser.UI.Net
 
             }
         }
+
+        private void getHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TabPage newPage = new TabPage("Help");
+            NewTab newTab = new NewTab();
+            newTab.webBrowser1.Navigate("https://support.microsoft.com/en-us/microsoft-edge");
+            newTab.Dock = DockStyle.Fill;
+            newPage.Controls.Add(newTab);
+            tabControl1.TabPages.Add(newPage);
+        }
     }
 }
