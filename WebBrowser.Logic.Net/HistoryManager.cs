@@ -15,6 +15,12 @@ namespace WebBrowser.Logic.Net
             adapter.Insert(item.Title, item.URL, item.Date);
         }
 
+        public static void RemoveItem(HistoryItem item)
+        {
+            var adapter = new HistoryTableAdapter();
+            adapter.Delete(item.Id, item.Title, item.URL, item.Date);
+        }
+
         public static List<HistoryItem> GetItems()
         {
             var adapter = new HistoryTableAdapter();

@@ -21,6 +21,8 @@ namespace WebBrowser.UI.Net
         // Navigates to the given URL if it is valid.
         private void Navigate(String address)
         {
+            toolStripStatusLabel2.Text = "Loading";
+
             if (String.IsNullOrEmpty(address)) return;
             if (address.Equals("about:blank")) return;
             if (!address.StartsWith("http://") &&
@@ -103,6 +105,14 @@ namespace WebBrowser.UI.Net
             item.URL = webBrowser1.Url.ToString();
 
             HistoryManager.AddItem(item);
+            toolStripProgressBar1.Value = 100;
+            toolStripStatusLabel2.Text = "Done";
+
+
+        }
+
+        private void toolStripProgressBar1_Click(object sender, EventArgs e)
+        {
 
         }
     }
