@@ -14,6 +14,11 @@ namespace WebBrowser.Logic.Net
             var adapter = new BookmarksTableAdapter();
             adapter.Insert(item.Title, item.URL);
         }
+        public static void RemoveItem(BookmarkItem item)
+        {
+            var adapter = new BookmarksTableAdapter();
+            adapter.Delete(item.Id, item.Title, item.URL);
+        }
 
         public static List<BookmarkItem> GetItems()
         {
